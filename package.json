@@ -1,0 +1,26 @@
+{
+  "name": "aether-events-portal",
+  "version": "1.0.0",
+  "description": "MERN Event Management Portal",
+  "main": "backend/server.js",
+  "scripts": {
+    "backend": "npm start --prefix backend",
+    "backend-dev": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "dev": "concurrently \"npm run backend-dev\" \"npm run frontend\"",
+    "install-backend": "npm install --prefix backend",
+    "install-frontend": "npm install --prefix frontend",
+    "install-all": "npm install && npm run install-backend && npm run install-frontend"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "RUPAL AGARWAL",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
