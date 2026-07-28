@@ -4,6 +4,11 @@ Welcome to the **MERN Event Management Portal**! This is a state-of-the-art, fea
 
 ---
 
+## 🎨 Application Preview
+![Event Management Portal Dashboard](./event_portal_mockup.png)
+
+---
+
 ## 🎓 Intern Information
 - **Intern ID**: CITS7334
 - **Full Name**: RUPAL AGARWAL
